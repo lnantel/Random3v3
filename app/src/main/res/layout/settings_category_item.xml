@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorDarkBlue"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/settingCategoryTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_weight="1"
+        android:text="Setting name"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/settingAll"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="All"
+        android:theme="@style/lightBlue.Button" />
+
+    <Button
+        android:id="@+id/settingNone"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:text="None"
+        android:theme="@style/lightBlue.Button" />
+
+</LinearLayout>

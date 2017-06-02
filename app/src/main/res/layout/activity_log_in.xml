@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkBlue"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.nantel.louis.random3v3.LogInActivity">
+
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/apptheme_textfield_activated_holo_light"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@color/colorLightBlue" />
+
+    <EditText
+        android:id="@+id/editTextPwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/apptheme_textfield_activated_holo_light"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@color/colorLightBlue" />
+        <!--android:background="@drawable/apptheme_textfield_activated_holo_light"-->
+
+    <Button
+        android:id="@+id/signInButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Log In"
+        android:textSize="24sp"
+        android:theme="@style/lightBlue.Button" />
+
+    <TextView
+        android:id="@+id/signUpTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:contextClickable="false"
+        android:linksClickable="false"
+        android:longClickable="false"
+        android:text="Don't have an account? Sign up here"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="18sp" />
+</LinearLayout>

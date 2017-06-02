@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="lightBlue.Button" parent="AppTheme">
+        <item name="colorAccent">@color/colorLightBlue</item>
+    </style>
+
+    <style name="orange.Button" parent="AppTheme">
+        <item name="colorAccent">@color/colorOrange</item>
+    </style>
+
+    <style name="_AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:editTextBackground">@drawable/apptheme_edit_text_holo_light</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/colorLightBlue</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="@android:style/Theme.Dialog">
+        <item name="android:textColor">@color/colorLightBlue</item>
+        <item name="android:background">@color/colorDarkBlue</item>
+        <item name="android:textAppearanceButton">@style/AlertDialogButtonCustom</item>
+        <item name="colorAccent">@color/colorLightBlue</item>
+    </style>
+
+    <style name="AlertDialogButtonCustom" parent="AppTheme">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ProgressDialogCustom" parent="@android:style/Widget.ProgressBar">
+        <item name="android:textColor">@color/colorLightBlue</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/colorDarkBlue</item>
+        <item name="colorAccent">@color/colorLightBlue</item>
+    </style>
+
+</resources>
